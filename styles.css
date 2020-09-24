@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+
+main {
+    text-align: center;
+    background: linear-gradient(45deg, #ffc, #ccf);
+    margin: 20px 0 20px 0;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    font-family: "Source Sans Pro", sans-serif;
+    width: 100%;
+}
+
+img {
+    border-radius: 20px;
+}
+
+#title {
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+
+#tribute-info {
+    width: 800px;
+    max-width: 100%;
+    margin: auto;
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    text-align: center;
+}
+
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+}
+
+footer {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#headline {
+    text-align: center;
+}
+
+header {
+    display: inline;
+    font-size: 30px;
+}
